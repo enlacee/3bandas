@@ -1,0 +1,4 @@
+note.django.txt
+//TIPO DE DATOS
+
+EmailField

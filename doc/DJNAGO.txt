@@ -1,0 +1,29 @@
+IDE PARA DESARROLLAR DJANGO
+pycharm
+
+
+-- Descargar django y guardar defaul  en c:/django
+
+
+cmd c:/django-1.4>python setup.py install
+
+-------------------------------
+| con esto instalamos DJANGO  |
+--------------------------------
+
+:mysql:
+
+cd C:\xampp\mysql\bin
+
+//comandos
+mysql -uroot -p
+
+show databases;
+
+
+
+
+
+
+
+python manage.py startapp principal

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang='es'>
+  <head>
+	<title>Lista de TORNEOS de ejemplo</title>
+	<meta charset='utf-8'>
+  </head>
+  <body>
+    <h1>PROYECTO {{anibal}}</h1>
+    {{ lista }}
+
+	{% for lista in elemento %}
+	<ul>
+	  <li><strong>{{elemento.nombre}}</strong></li>
+	  <li>{{lista.telefono}}</li>
+	  <li>{{elemento.direccion}}</li>
+	</ul>
+	{% endfor %}
+  </body>
+</html>
