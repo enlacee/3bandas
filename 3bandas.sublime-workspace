@@ -1,0 +1,696 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"se",
+				"self"
+			],
+			[
+				"colo",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"noca",
+				"nocache	Evitar cache de navegadores"
+			],
+			[
+				"bcapc",
+				"bcaptcha	Genera un captcha basico de 6 letras/numeros."
+			],
+			[
+				"ge",
+				"genhtml5	Genera un documento HTML preparado para HTML5"
+			],
+			[
+				"slide",
+				"slideToogle"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"backgroud",
+				"background-color"
+			],
+			[
+				"boder-bo",
+				"border-bottom"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"sort",
+				"sortorder"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"boe",
+				"border-bottom"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"h",
+				"h2	Tag"
+			],
+			[
+				"str_",
+				"str_replace"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"hre",
+				"href"
+			],
+			[
+				"res",
+				"request"
+			],
+			[
+				"htt",
+				"http"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "bandas/urls.py",
+			"settings":
+			{
+				"buffer_size": 938,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "nuevo/views.py",
+			"settings":
+			{
+				"buffer_size": 624,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "torneo/views.py",
+			"settings":
+			{
+				"buffer_size": 543,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bandas/plantillas/lista_torneos.html",
+			"settings":
+			{
+				"buffer_size": 367,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 380.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DR01.368/py/odbchelpertest.py",
+		"/C/anb/3bandas/bandas/plantillas/torneo.html",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.808/HORIZONTE.txt",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/controller/EstructuraAfp.php",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/controller/EstructuraLiquidacionController.php",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.013/planilla.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI08.856/PRIMA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.558/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.386/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI01.530/PIZZERIA LA ROMANA-BOLETA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.479/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.711/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.602/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.197/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI01.390/PIZZERIA LA ROMANA-BOLETA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.902/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/view-empresa/js/misgrid.js",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.090/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.778/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.919/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.931/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.362/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.620/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.122/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.746/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.966/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI01.155/PIZZERIA LA ROMANA-BOLETA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.654/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI01.531/PIZZERIA LA ROMANA-BOLETA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.231/PIZZERIA LA ROMANA-BOLETA PAGO.txt",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/controller/PagoController.php",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI05.895/PIZZERIA LA ROMANA-MENSUAL.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI63.886/PIZZERIA LA ROMANA-BOLETA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.808/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.432/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.026/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.965/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.887/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.950/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.075/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.997/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.763/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.684/PIZZERIA LA ROMANA-BOLETA PAGO.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.256/PIZZERIA LA ROMANA-MENSUAL.txt",
+		"/G/DJNAGO.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.402/planilla.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.886/planilla.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.028/planilla.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.713/PIZZERIA LA ROMANA-BOLETA PAGO.txt",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/view-plame/js/misgrid.js",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/view-plame/edit_declaracion_tab2.php",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.966/PIZZERIA LA ROMANA-BOLETA PAGO.txt",
+		"/C/Users/Anibal/Desktop/df",
+		"/C/Users/Anibal/Desktop/pry/bandas/bandas/plantillas/hola.html",
+		"/G/AFP-NET.txt",
+		"/C/Users/Anibal/Desktop/server.js",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/dao/AdelantoDao.php",
+		"/C/xampp/htdocs/VMOTIVOS/admin/dao/almacenDAO.php",
+		"/C/xampp/htdocs/VMOTIVOS/admin/ds/MyPDO.php",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/controller/EmpleadorController.php",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/controller/ideController.php",
+		"/C/Users/Anibal/Desktop/SINGLETON/aaaaaaaaaaaaaaaaaaaaaaa",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/view/view_empleador.php",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/view/ide.php",
+		"/C/Users/Anibal/Desktop/SINGLETON/EmpleadorMaestroDao.php",
+		"/C/Users/Anibal/Desktop/SINGLETON/AbstractDao.php",
+		"/C/Users/Anibal/Desktop/SINGLETON/EmpleadorDao.php",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/model/Empleador.php",
+		"/C/Users/Anibal/Desktop/PHP-DEV/Wordpres Lp/wordpress3.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI01.730/note.django.txt",
+		"/C/Users/Anibal/Desktop/pry/bandas/bandas/plantillas/lista_torneos.html",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI01.474/DJNAGO.txt",
+		"/C/xampp/htdocs/nettus/jquery/clase13/index.hml",
+		"/C/xampp/htdocs/nettus/jquery/clase08/index.html",
+		"/C/xampp/htdocs/backbone-boilerplate/app/router.js",
+		"/C/xampp/htdocs/jquery/html5demos/page.php",
+		"/C/xampp/htdocs/jquery/html5demos/index.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/style.css",
+		"/C/Users/Anibal/Desktop/funcion_pie.php",
+		"/G/normalize.css",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.247/index.php",
+		"/C/xampp/htdocs/wordpress/wp-includes/js/tinymce/themes/advanced/skins/o2k7/content.css",
+		"/G/plugin/responsive.css",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/css/main.css",
+		"/C/xampp/htdocs/wordpress/wp-includes/js/tinymce/themes/advanced/skins/default/content.css",
+		"/C/xampp/htdocs/wordpress/wp-includes/admin-bar.php",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.245/facebook.php",
+		"/C/xampp/htdocs/wordpress/wp-includes/class-wp-admin-bar.php",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.558/index.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/css/slider.css",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.163/main.css",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI03.440/main.css",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/js/vendor/slides.min.jquery.js",
+		"/C/xampp/htdocs/manya/index3.php",
+		"/C/xampp/htdocs/manya/index2.php",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.120/index.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/index.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/functions.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/js/slider.js",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/js/main.js",
+		"/C/xampp/htdocs/manya/demos/Slides/examples/images-with-captions/css/global.css",
+		"/C/xampp/htdocs/manya/demos/Slides/examples/images-with-captions/index.html",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/controller/ConfController.php",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/controller/CategoriaPensionistaControlller.php",
+		"/C/xampp/htdocs/manya/index.php",
+		"/C/xampp/htdocs/wordpress/wp-includes/query.php",
+		"/C/xampp/htdocs/wordpress/wp-includes/user.php",
+		"/C/Users/Anibal/Desktop/ehn/nocache.sublime-snippet",
+		"/C/Users/Anibal/Desktop/hola.html",
+		"/C/Users/Anibal/Desktop/ehn/jqueryready.sublime-snippet",
+		"/C/Users/Anibal/Desktop/hola.php",
+		"/C/Users/Anibal/AppData/Roaming/Sublime Text 2/Packages/User/anb_jquery.sublime-snippet",
+		"/C/Users/Anibal/Desktop/ehn/generahtml.sublime-snippet",
+		"/C/Users/Anibal/Desktop/ehn/bcaptcha.sublime-snippet",
+		"/C/Users/Anibal/AppData/Roaming/Sublime Text 2/Packages/User/hola.sublime-snippet",
+		"/G/BUG_DB_ALL.sql",
+		"/G/Developer/MyFirefox.txt",
+		"/G/Developer/GoogleDoc/script_bueno_googleAPP.sql",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.480/060120120120469663681.jor",
+		"/G/link_dowloader.txt",
+		"/G/ERROR_CRITICO.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI06.233/EL GOL MARINO-MENSUAL.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.558/EL GOL MARINO-BOLETA PAGO.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.200/planilla.txt",
+		"/C/Users/Anibal/Desktop/registros_por_conceptos.sql",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/view/js/misgrid_sunat.js",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.762/PIZZERIA LA ROMANA-PLANILLA UNICA.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.176/PIZZERIA LA ROMANA-BOLETA PAGO.txt"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$mi_afp",
+			"afpArrayConstruido",
+			"crearDialogoMasOp",
+			"editarPagoMasOpciones",
+			"reporte15_mas",
+			"total en",
+			"reporte30_02",
+			"AbstractDao",
+			"cargar_tabla",
+			"{\n",
+			"cargar_tabla",
+			"exel",
+			"_admin_bar_bump_cb",
+			"28",
+			"* html body",
+			"28",
+			"normanize",
+			"flow",
+			"prev",
+			"wrapper",
+			"logo",
+			"#logo",
+			"logo",
+			":104",
+			"prev",
+			"wrapper",
+			"jquery",
+			"wrapper",
+			"slides_container",
+			"slides",
+			"slider-wrapper",
+			"header",
+			"SQL_CALC_FOUND_ROWS ",
+			"cargarTablaPersonalDireccion",
+			"anb_",
+			"anb_diasNoSubsidiado",
+			"cargarEstablecimientoLocalesCCosto",
+			"seleccionarLocalDinamico",
+			"cargarEstablecimientoLocalesCCosto",
+			"0701",
+			"trabajadores",
+			"0201",
+			"contact",
+			"siblings",
+			"nth-child",
+			"blockquote",
+			"closest",
+			"generar_reporte_empresa_01",
+			"buscar_ID_TrabajadorPdeclaracion",
+			"wp_enqueue_scripts",
+			"reporte30_02",
+			"bajaCodSituacion",
+			"trabajadores",
+			"personas",
+			"reporte_plame",
+			"<?",
+			"crearDialogoTDMasOp",
+			"editarTDMasOpciones",
+			"reporte30_mas",
+			"cargarTablaPdeclaracionEmpresa",
+			",\n",
+			"editarPagoMasOpciones",
+			"reporte15_mas",
+			"crearDialogoTDMasOp",
+			"editarTDMasOpciones",
+			"reporte30_mas",
+			"editable",
+			" public function listarDeclaracionEtapa($id_declaracion, $WHERE/*,$start, $limit, $sidx, $sord*/) {\n    \n        //query Antigua ->no permite busqueda.        \n        $query = \"\n        SELECT \n        -- pago\n        pg.id_pago,\n        pg.id_trabajador,\n        -- pago\n        -- persona\n        p.id_persona,\n        p.num_documento,\n        p.cod_tipo_documento,\n        p.apellido_paterno,\n        p.apellido_materno,\n        p.nombres\n        -- persona\n\n        FROM pdeclaraciones AS pd\n        INNER JOIN etapas_pagos AS ep\n        ON pd.id_pdeclaracion = ep.id_pdeclaracion\n        INNER JOIN pagos AS pg\n        ON ep.id_etapa_pago = pg.id_etapa_pago\n        -- tra\n        inner join trabajadores as t\n        on pg.id_trabajador = t.id_trabajador\n        inner join personas as p\n        on t.id_persona = p.id_persona\n        -- tra\n        WHERE pd.id_pdeclaracion= ?\n        -- new \n        $WHERE\n        GROUP BY t.id_trabajador\n        -- new\n        -- ORDER BY $sidx $sord LIMIT $start,  $limit        \n        \";   \n        \n     \n\n        $stm = $this->pdo->prepare($query);\n        $stm->bindValue(1, $id_declaracion);\n        //$stm->bindValue(2, $anio);\n        $stm->execute();\n        $lista = $stm->fetchAll();\n        $stm = null;\n        return $l$cadena",
+			"COCINERO",
+			"eliminar_datos_mes",
+			"rows",
+			"rowsNum",
+			"rowsNumber",
+			"rows",
+			"PlameDeclaracionDao",
+			"$dao",
+			"PlameDeclaracionDao",
+			"cargarTablaPersonalServicio",
+			"cargarTablaPDeclaracionEtapaPago",
+			"listarDeclaracionEtapa",
+			"cadena",
+			"TrabajadorPdeclaracionDao",
+			"$dao_tpd",
+			"listar",
+			"listad",
+			"$dao_tpd",
+			"TrabajadorPdeclaracionDao",
+			"listar",
+			"TrabajadorPdeclaracionDao",
+			"PlameDeclaracionDao",
+			"trabajadores",
+			"getRowData",
+			"cargarTablaPersonalServicio",
+			"attri",
+			"cargarTablaPdeclaracionEmpresa",
+			"reporte15_02",
+			"detalle_establecimiento",
+			"detalle_regimenes_pensionarios",
+			"detalle_regimenes_salud",
+			"detalle_tipos_trabajadores",
+			"detalle_periodos_laborales",
+			"trabajadores",
+			"cargarTablaTrabajador",
+			"cargarTablaTrabajadorACTIVO",
+			"'/*,'",
+			"left",
+			"case",
+			"$examp",
+			"generarDeclaracionPlanilla",
+			"adelanto_mes_02",
+			"crearFecha",
+			"getFechaVacacionCalc",
+			"calcular",
+			"nuevoDiaSubsidiado",
+			"console",
+			"validarNuevoInput",
+			"nuevoDiaSubsidiado",
+			"nuevoDiaSubsidiado_2",
+			"validarNuevoInput",
+			"getIdsCombos",
+			"nuevoDiaSubsidiado",
+			"cargarSuspension_1",
+			"console",
+			"validarNuevoInput_2",
+			"grabarDiaSubsidiado",
+			"view_listarConcepto",
+			"getFechaVacacionCalc",
+			"$start"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "bandas/urls.py",
+					"settings":
+					{
+						"buffer_size": 938,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								768,
+								768
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "nuevo/views.py",
+					"settings":
+					{
+						"buffer_size": 624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								451,
+								451
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "torneo/views.py",
+					"settings":
+					{
+						"buffer_size": 543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								535,
+								539
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "bandas/plantillas/lista_torneos.html",
+					"settings":
+					{
+						"buffer_size": 367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"empleador",
+				"model/Empleador.php"
+			],
+			[
+				"empleador.php",
+				"model/Empleador.php"
+			],
+			[
+				"ide",
+				"view/ide.php"
+			],
+			[
+				"view_emple",
+				"view/view_empleador.php"
+			],
+			[
+				"empleadodao",
+				"dao/EmpleadorDao.php"
+			],
+			[
+				"empleadormaestrodao",
+				"dao/EmpleadorMaestroDao.php"
+			],
+			[
+				"idecontro",
+				"controller/ideController.php"
+			],
+			[
+				"empleadorda",
+				"dao/EmpleadorDao.php"
+			],
+			[
+				"trabajador",
+				"controller/TrabajadorPdeclaracionController.php"
+			],
+			[
+				"trabajadore",
+				"model/TrabajadorPdeclaracion.php"
+			],
+			[
+				"tab",
+				"tab_1.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 167.0,
+	"status_bar_visible": true
+}

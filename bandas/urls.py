@@ -21,7 +21,10 @@ urlpatterns = patterns('',
     # --- new  anb ----
     url(r'^$','torneo.views.lista_torneos'),
 
-    # --- app-test ----
+    # --- applicacion torneo ----
+    url(r'^torneo/$','torneo.views.objeto_torneo'),
+
+    # --- applicacion-nuevo ----
     url(r'^nuevo/$',current_datetime), #LLamnado la funcion vista desde  el la app.
 
     url(r'^nuevo/mas/(\d{1,2})/$',hours_ahead),
