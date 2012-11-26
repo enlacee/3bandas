@@ -22,3 +22,9 @@ def objeto_torneo(request):
 	return render_to_response('torneo.html', diccionario )
 	#return render_to_response('public/demo.html', diccionario )
 
+
+def tiempo_mas(request, offset):
+	offset = int(offset)	
+	title = 'titulo de plantilla con herencia'
+	dt = datetime.datetime.now() + datetime.timedelta(hours=offset)	
+	return render_to_response('public/index.html',{'title':title, 'offset':offset, 'dt':dt})

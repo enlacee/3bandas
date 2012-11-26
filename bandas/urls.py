@@ -23,6 +23,7 @@ urlpatterns = patterns('',
 
     # --- applicacion torneo ----
     url(r'^torneo/$','torneo.views.objeto_torneo'),
+    url(r'^tiempo/mas/(\d{1,2})/$', 'torneo.views.tiempo_mas'),
 
     # --- applicacion-nuevo ----
     url(r'^nuevo/$',current_datetime), #LLamnado la funcion vista desde  el la app.
