@@ -22,8 +22,11 @@ show databases;
 
 
 
-
-
-
-
-python manage.py startapp principal
+------------------------------------------------------
+|COMANDOS BASICOS DE DJANGO
+------------------------------------------------------
+python manage.py startapp principal		// crear app
+python manage.py sqlall books			// sql
+python manage.py validate				// validando modelo
+python manage.py syncdb
+python manage.py shell					// write in API

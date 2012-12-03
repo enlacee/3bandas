@@ -5,14 +5,14 @@
 	<meta charset='utf-8'>
   </head>
   <body>
-    <h1>PROYECTO {{anibal}}</h1>
-    {{ lista }}
+    <h1>HELLO DATA TORNEO {{anibal}}</h1>    
 
-	{% for lista in elemento %}
+	{% for elemento in lista %}
+	
 	<ul>
 	  <li><strong>{{elemento.nombre}}</strong></li>
-	  <li>{{lista.telefono}}</li>
-	  <li>{{elemento.direccion}}</li>
+	  <li>{{elemento.descripcion}}</li>
+	  <li>{{elemento.handicap}}</li>
 	</ul>
 	{% endfor %}
   </body>

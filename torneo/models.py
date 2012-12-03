@@ -4,6 +4,9 @@ class Pais(models.Model):
 	id_pais = models.AutoField(primary_key=True) 
 	descripcion = models.CharField(max_length=30)
 
+	def __str__(self):
+		return self.descripcion
+
 class Torneo(models.Model):
 	id_torneo = models.AutoField(primary_key=True) 
 	nombre = models.CharField(max_length=50)
@@ -23,6 +26,21 @@ class Torneo(models.Model):
 	distrito = models.CharField(max_length=30)
 	zip_code = models.CharField(max_length=8)
 	telefono = models.CharField(max_length=15)
+	fecha_creacion = models.DateField(help_text='F creacion', verbose_name='Fecha Creacion',auto_now=True)
+
+	def __unicode__(self):
+		return self.nombre	
+	#def __str__(self):
+	#	return '%s id=%s'% (self.nombre,self.id_torneo)
+"""
+	class Admin:
+		list_display = ('nombre','descripcion',)
+		list_filter = ('nombre','descripcion')
+		#ordering = ('-nombre',)
+		search_fields = ('nombre',)
+"""
+
+
 
 
 

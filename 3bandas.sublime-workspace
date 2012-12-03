@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"input"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
 				"se",
 				"self"
 			],
@@ -64,10 +76,6 @@
 				"display"
 			],
 			[
-				"in",
-				"inherit"
-			],
-			[
 				"backgroud",
 				"background-color"
 			],
@@ -120,10 +128,6 @@
 				"href"
 			],
 			[
-				"res",
-				"request"
-			],
-			[
 				"htt",
 				"http"
 			]
@@ -131,38 +135,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "bandas/urls.py",
-			"settings":
-			{
-				"buffer_size": 938,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "nuevo/views.py",
-			"settings":
-			{
-				"buffer_size": 624,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "torneo/views.py",
-			"settings":
-			{
-				"buffer_size": 543,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "bandas/plantillas/lista_torneos.html",
-			"settings":
-			{
-				"buffer_size": 367,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -188,8 +160,59 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Anibal/AppData/Local/Temp/Rar$DR01.368/py/odbchelpertest.py",
+		"/C/xampp/htdocs/VMOTIVOS/admin/controller/public/EstadoModel.php",
+		"/C/xampp/htdocs/VMOTIVOS/register.php",
+		"/C/Users/Anibal/Desktop/README.txt",
+		"/C/xampp/htdocs/VMOTIVOS/admin/dao/public/clienteDaoPublic.php",
+		"/C/anb/3bandas/bandas/plantillas/public/contacto.html",
+		"/C/anb/3bandas/torneo/models.py",
+		"/C/anb/3bandas/bandas/plantillas/public/search.html",
+		"/C/anb/3bandas/bandas/urls.py",
+		"/C/anb/3bandas/torneo/views.py",
+		"/C/anb/3bandas/torneo/forms.py",
+		"/C/anb/3bandas/bandas/plantillas/lista_test.html",
+		"/C/anb/3bandas/bandas/plantillas/lista_torneos.html",
+		"/C/anb/3bandas/doc/DJNAGO.txt",
+		"/C/Users/Anibal/Downloads/torneo_torneo (1).sql",
+		"/C/Users/Anibal/Downloads/torneo_torneo.sql",
+		"/C/xampp/htdocs/VMOTIVOS/admin/dao/public/categoriaDaoPublic.php",
+		"/C/xampp/htdocs/VMOTIVOS/admin/dao/public/motivoDaoPublic.php",
+		"/C/xampp/htdocs/VMOTIVOS/admin/dao/public/novedadDaoPublic.php",
+		"/C/xampp/htdocs/VMOTIVOS/admin/dao/public/kitDaoPublic.php",
+		"/C/xampp/htdocs/VMOTIVOS/admin/dao/public/productoDaoPublic.php",
+		"/C/xampp/htdocs/VMOTIVOS/MYSQL/vmotivos_ok.sql",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/view-empresa/js/misgrid.js",
+		"/C/xampp/htdocs/prosic_erp/css/css.css",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/controller/PrestamoCuotaController.php",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/view-empresa/view_periodo.php",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/view-empresa/new_cprestamo.php",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/view-empresa/view_cparatifamilia.php",
+		"/C/xampp/htdocs/prosic_erp/sunat_planilla/view-conf/js/misgrid.js",
+		"/C/xampp/htdocs/prosic_erp/css/estilos.css",
+		"/C/xampp/htdocs/prosic_erp/css/global.css",
+		"/C/xampp/htdocs/prosic_erp/anb_css/estilos.css",
+		"/C/xampp/htdocs/prosic_erp/anb_css/css.css",
+		"/C/anb/3bandas/3bandas/urls.py",
+		"/C/anb/3bandas/books/models.py",
+		"/C/anb/3bandas/bandas/plantillas/public/torneo.html",
+		"/C/anb/3bandas/books/admin.py",
+		"/C/anb/3bandas/torneo/admin.py",
+		"/C/anb/3bandas/nuevo/models.py",
+		"/C/anb/3bandas/bandas/settings.py",
+		"/C/anb/3bandas/bandas/plantillas/public/index.html",
+		"/C/anb/3bandas/bandas/plantillas/public/base.html",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentyeleven/index.php",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/twentyeleven/header.php",
+		"/C/anb/3bandas/nuevo/views.py",
 		"/C/anb/3bandas/bandas/plantillas/torneo.html",
+		"/C/anb/3bandas/nuevo/tests.py",
+		"/C/anb/node/ejemplo.js",
+		"/C/anb/3bandas/bandas/plantillas/public/torneo/index.html",
+		"/C/anb/node/preload.js",
+		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/index.php",
+		"/C/anb/3bandas/bandas/plantillas/public/demo.html",
+		"/C/Users/Anibal/Desktop/INSUES.PRY.txt",
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DR01.368/py/odbchelpertest.py",
 		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.808/HORIZONTE.txt",
 		"/C/xampp/htdocs/prosic_erp/sunat_planilla/controller/EstructuraAfp.php",
 		"/C/xampp/htdocs/prosic_erp/sunat_planilla/controller/EstructuraLiquidacionController.php",
@@ -204,7 +227,6 @@
 		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.197/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
 		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI01.390/PIZZERIA LA ROMANA-BOLETA QUINCENA.txt",
 		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.902/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
-		"/C/xampp/htdocs/prosic_erp/sunat_planilla/view-empresa/js/misgrid.js",
 		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.090/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
 		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.778/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
 		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.919/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
@@ -265,57 +287,7 @@
 		"/C/xampp/htdocs/backbone-boilerplate/app/router.js",
 		"/C/xampp/htdocs/jquery/html5demos/page.php",
 		"/C/xampp/htdocs/jquery/html5demos/index.php",
-		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/style.css",
-		"/C/Users/Anibal/Desktop/funcion_pie.php",
-		"/G/normalize.css",
-		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.247/index.php",
-		"/C/xampp/htdocs/wordpress/wp-includes/js/tinymce/themes/advanced/skins/o2k7/content.css",
-		"/G/plugin/responsive.css",
-		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/css/main.css",
-		"/C/xampp/htdocs/wordpress/wp-includes/js/tinymce/themes/advanced/skins/default/content.css",
-		"/C/xampp/htdocs/wordpress/wp-includes/admin-bar.php",
-		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.245/facebook.php",
-		"/C/xampp/htdocs/wordpress/wp-includes/class-wp-admin-bar.php",
-		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.558/index.php",
-		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/css/slider.css",
-		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.163/main.css",
-		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI03.440/main.css",
-		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/js/vendor/slides.min.jquery.js",
-		"/C/xampp/htdocs/manya/index3.php",
-		"/C/xampp/htdocs/manya/index2.php",
-		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.120/index.php",
-		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/index.php",
-		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/functions.php",
-		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/js/slider.js",
-		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/js/main.js",
-		"/C/xampp/htdocs/manya/demos/Slides/examples/images-with-captions/css/global.css",
-		"/C/xampp/htdocs/manya/demos/Slides/examples/images-with-captions/index.html",
-		"/C/xampp/htdocs/prosic_erp/sunat_planilla/controller/ConfController.php",
-		"/C/xampp/htdocs/prosic_erp/sunat_planilla/controller/CategoriaPensionistaControlller.php",
-		"/C/xampp/htdocs/manya/index.php",
-		"/C/xampp/htdocs/wordpress/wp-includes/query.php",
-		"/C/xampp/htdocs/wordpress/wp-includes/user.php",
-		"/C/Users/Anibal/Desktop/ehn/nocache.sublime-snippet",
-		"/C/Users/Anibal/Desktop/hola.html",
-		"/C/Users/Anibal/Desktop/ehn/jqueryready.sublime-snippet",
-		"/C/Users/Anibal/Desktop/hola.php",
-		"/C/Users/Anibal/AppData/Roaming/Sublime Text 2/Packages/User/anb_jquery.sublime-snippet",
-		"/C/Users/Anibal/Desktop/ehn/generahtml.sublime-snippet",
-		"/C/Users/Anibal/Desktop/ehn/bcaptcha.sublime-snippet",
-		"/C/Users/Anibal/AppData/Roaming/Sublime Text 2/Packages/User/hola.sublime-snippet",
-		"/G/BUG_DB_ALL.sql",
-		"/G/Developer/MyFirefox.txt",
-		"/G/Developer/GoogleDoc/script_bueno_googleAPP.sql",
-		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.480/060120120120469663681.jor",
-		"/G/link_dowloader.txt",
-		"/G/ERROR_CRITICO.txt",
-		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI06.233/EL GOL MARINO-MENSUAL.txt",
-		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.558/EL GOL MARINO-BOLETA PAGO.txt",
-		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.200/planilla.txt",
-		"/C/Users/Anibal/Desktop/registros_por_conceptos.sql",
-		"/C/xampp/htdocs/prosic_erp/sunat_planilla/view/js/misgrid_sunat.js",
-		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.762/PIZZERIA LA ROMANA-PLANILLA UNICA.txt",
-		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.176/PIZZERIA LA ROMANA-BOLETA PAGO.txt"
+		"/C/xampp/htdocs/wordpress/wp-content/themes/anbTheme/style.css"
 	],
 	"find":
 	{
@@ -333,6 +305,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pais",
+			"seguro",
+			"cargarTablaParaTiFamilia",
+			"grabarPrestamo",
+			"validarFormatoMesAnio",
+			"grabarPrestamo",
+			"eliminar_datos_mes",
+			"ocultar",
 			"$mi_afp",
 			"afpArrayConstruido",
 			"crearDialogoMasOp",
@@ -452,15 +432,7 @@
 			"nuevoDiaSubsidiado",
 			"nuevoDiaSubsidiado_2",
 			"validarNuevoInput",
-			"getIdsCombos",
-			"nuevoDiaSubsidiado",
-			"cargarSuspension_1",
-			"console",
-			"validarNuevoInput_2",
-			"grabarDiaSubsidiado",
-			"view_listarConcepto",
-			"getFechaVacacionCalc",
-			"$start"
+			"getIdsCombos"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -479,115 +451,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "bandas/urls.py",
-					"settings":
-					{
-						"buffer_size": 938,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								768,
-								768
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 57.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "nuevo/views.py",
-					"settings":
-					{
-						"buffer_size": 624,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								451,
-								451
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "torneo/views.py",
-					"settings":
-					{
-						"buffer_size": 543,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								535,
-								539
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "bandas/plantillas/lista_torneos.html",
-					"settings":
-					{
-						"buffer_size": 367,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								213,
-								213
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -691,6 +556,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 167.0,
+	"side_bar_width": 154.0,
 	"status_bar_visible": true
 }

@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<h1>Busqueda</h1>
+
+<form action ="/torneo/search/" method="get">
+	<label for ='q'>Search:</label>
+	<input type='text' name='q' value="{{ query|escape }}">
+	<input type='submit' value='Buscar'>
+</form>
+
+
+{% if results.count > 0 %}
+	<h2>Resultado para "{{ query.upper|escape }}":</h2>
+
+{% else %}
+	<h3>No se Encontraron respuestas  relacionadas con: {{ query }}</h3>
+
+{% endif %}
+
+
+
+
+{{ results }}
+{{ query }}
+</body>
+</html>

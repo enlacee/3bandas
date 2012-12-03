@@ -6,6 +6,7 @@ from django.contrib import admin
 # app nuevo
 from nuevo.views import current_datetime,hours_ahead
 
+
 admin.autodiscover()
 
 urlpatterns = patterns('',
@@ -24,6 +25,14 @@ urlpatterns = patterns('',
     # --- applicacion torneo ----
     url(r'^torneo/$','torneo.views.objeto_torneo'),
     url(r'^tiempo/mas/(\d{1,2})/$', 'torneo.views.tiempo_mas'),
+
+    url(r'^torneo/lista/$', 'torneo.views.lista_db'),
+    url(r'^torneo/search/$', 'torneo.views.search'),
+
+
+
+    # --- web
+    url(r'^contacto/$','torneo.views.contact'),
 
     # --- applicacion-nuevo ----
     url(r'^nuevo/$',current_datetime), #LLamnado la funcion vista desde  el la app.
