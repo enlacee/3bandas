@@ -22,8 +22,9 @@ urlpatterns = patterns('',
     # --- new  anb ----
     url(r'^$','torneo.views.lista_torneos'),
 
-    # --- applicacion torneo ----
-    url(r'^torneo/$','torneo.views.objeto_torneo'),
+    # --- applicacion torneo ----    
+    url(r'^torneo/$','torneo.views.torneo'),
+    #url(r'^torneo/$','torneo.views.objeto_torneo'),
     url(r'^tiempo/mas/(\d{1,2})/$', 'torneo.views.tiempo_mas'),
 
     url(r'^torneo/lista/$', 'torneo.views.lista_db'),
@@ -32,7 +33,7 @@ urlpatterns = patterns('',
 
 
     # --- web
-    url(r'^contacto/$','torneo.views.contact'),
+    url(r'^contacto/$','torneo.views.contacto'),
 
     # --- applicacion-nuevo ----
     url(r'^nuevo/$',current_datetime), #LLamnado la funcion vista desde  el la app.

@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Contactenos</title>
+</head>
+<body>
+
+<form  id='formulario' method='post' action=''>
+{% csrf_token %}
+<input type='text' name="oper" value="default">
+
+<table>
+{{ formulario.as_table }}
+</table>
+<!-- formulario.as_ul 
+{{ formulario.as_p }}
+-->
+<p>
+<input type="submit" value="Enviar">
+</p>
+</form>
+{% sql_queries %}
+</body>
+</html>

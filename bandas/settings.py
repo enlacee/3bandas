@@ -73,6 +73,7 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+    os.path.join(RUTA_PROYECTO,'static'),
 )
 
 # List of finder classes that know how to find static files in
@@ -90,7 +91,7 @@ SECRET_KEY = '(yi%mvb%+_#p40re=mci2n^$(+iaap@!ot2(l^t)6$98x9*7d0'
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
-#     'django.template.loaders.eggs.Loader',
+    #'django.template.loaders.eggs.Loader',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -112,7 +113,7 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    os.path.join(RUTA_PROYECTO, 'plantillas'),
+    #os.path.join(RUTA_PROYECTO, 'templates'),
 )
 
 INSTALLED_APPS = (
@@ -159,3 +160,11 @@ LOGGING = {
         },
     }
 }
+
+
+#Configuraciones para enviar mensajes usando gmail
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smpt.gmail.com'
+EMAIL_HOST_USER = 'detops.tk@gmail.com'
+EMAIL_HOST_PASSWORD = 'google#123'
+EMAIL_PORT = 587
