@@ -23,7 +23,13 @@ urlpatterns = patterns('',
     url(r'^$','torneo.views.lista_torneos'),
 
     # --- applicacion torneo ----    
-    url(r'^torneo/$','torneo.views.torneo'),
+    #url(r'^torneo/$','torneo.views.torneo'),
+    # --- applicacion torneo ----    
+    #url(r'^torneo/$','torneo.views.torneo'),	
+	
+	
+	
+	
     #url(r'^torneo/$','torneo.views.objeto_torneo'),
     url(r'^tiempo/mas/(\d{1,2})/$', 'torneo.views.tiempo_mas'),
 

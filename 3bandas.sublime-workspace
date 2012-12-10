@@ -208,6 +208,8 @@
 	},
 	"file_history":
 	[
+		"/C/anb/3bandas/doc/DJNAGO.txt",
+		"/C/Python27/Tools/Scripts/django-admin.py",
 		"/C/anb/3bandas/bandas/settings.py",
 		"/C/anb/3bandas/torneo/templates/torneo.html",
 		"/C/anb/3bandas/bandas/templates/torneoXD.html",
@@ -220,7 +222,6 @@
 		"/C/anb/3bandas/bandas/plantillas/torneo.html",
 		"/C/Users/Anibal/Desktop/recetario_mdw-master/recetario/principal/views.py",
 		"/C/anb/recetario/recetario/settings.py",
-		"/C/anb/3bandas/doc/DJNAGO.txt",
 		"/C/anb/recetario/apache_demo/leeme",
 		"/C/Users/Anibal/Desktop/recetario_mdw-master/recetario/recetario/urls.py",
 		"/C/anb/3bandas/bandas/plantillas/public/search.html",
@@ -334,8 +335,7 @@
 		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.931/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
 		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.362/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
 		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.620/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
-		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.122/PIZZERIA LA ROMANA-1RA QUINCENA.txt",
-		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.746/PIZZERIA LA ROMANA-1RA QUINCENA.txt"
+		"/C/Users/Anibal/AppData/Local/Temp/Rar$DI00.122/PIZZERIA LA ROMANA-1RA QUINCENA.txt"
 	],
 	"find":
 	{
