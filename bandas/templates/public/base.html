@@ -1,13 +1,82 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<title>{% block title %}{% endblock %}</title>
-</head>
-<body>
-<h1>Mi super titulo Tiempo Site base.html</h1>
-{% block content %}{% endblock %}
-{% block footer %}
-<hr>
-<p>Thanks for visiting my site.</p>
+  <head>
+    <title>{% block title %} {% endblock %}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->    
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/bootstrap-responsive.min.css" />    
+    <!-- JS -->
+    <script src="{{STATIC_URL}}js/jquery-1.8.0.min.js" type="text/javascript"></script>
+    <script src="{{STATIC_URL}}js/jquery-ui-1.8.23.custom.min.js" type="text/javascript"></script>
+    <script src="{{STATIC_URL}}js/bootstrap.min.js" type="text/javascript"></script>
+  <body>
+  <div class="container">
+
+  <header>
+    <nav>
+    <ul class="breadcrumb">
+    <li><a href="#">Torneo</a> <span class="divider">/</span></li>
+    <li><a href="#">Jugador</a> <span class="divider">/</span></li>
+    <li class="active">About</li>
+    </ul>
+    </nav> 
+  </header>
+
+  
+    
+  
+
+
+
+  <!-- Cuerpo -->
+  <section>
+    
+  </section>
+  
+
+    <div class="row">
+    <div class="span9"  style="background-color:#FCEAFF" >uno uno uno unounounounounounounounounounouno unounounouno uno</div>
+    <div class="span3" style="background-color:#9FF">dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos </div>
+    </div>
+
+
+<div class="row show-grid">
+  <div class="span6">
+          Level 1 of column
+          <div class="row show-grid">
+            <div class="span3">
+              Level 2
+            </div>
+            <div class="span3">
+              Level 2
+            </div>
+          </div>
+        </div>
+
+</div>
+
+    <div class="well">
+    ... hello 
+    </div>
+	
+<blockquote>
+  HELLO WORD
+</blockquote>
+
+<input type="text" value="null" maxlength="12" class="input-medium search-query">
+<button class="btn" type="submit">Guardar</button>
+<input type="button" value="Nuevo" class="btn"> 
+
+
+<!-- Contenido -->
+{% block content %}
+
 {% endblock %}
-</body>
+
+</div>  
+  </body>
 </html>
+

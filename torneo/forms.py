@@ -30,6 +30,57 @@ class ContactForm (forms.Form):
 		return mensaje
 
 
-class TorneoForm(forms.Form):
-	class Meta:
-		model = Torneo
+
+#formulario Torneo
+DATA_CHOICES = (
+	('01','01'),
+	('02','02'),
+	('03','03'),
+	('04','04'),
+	('05','05'),
+	('06','06'),
+	('07','07'),
+	('08','08'),
+	('09','09'),
+	('10','10'),
+)
+NUM_JUGADORES = (
+	('24','24'),
+	('30','30'),
+	('32','32'),
+	('36','36'),
+	('40','40'),
+	('45','45'),
+	('48','48'),
+	('60','60'),
+	('72','72'),
+	('96','96'),	
+
+)
+class TorneoFrm(forms.ModelForm):
+    class Meta:
+        model = Torneo
+
+"""
+class TorneoFrm(forms.Form):
+	nombre = forms.CharField(label='NOMBRE DEL TORNEO')
+	descripcion = forms.CharField(widget=forms.Textarea)
+	handicap_A = forms.Select(choices=DATA_CHOICES)
+	handicap_B = forms.Select(choices=DATA_CHOICES)
+	handicap_C = forms.Select(choices=DATA_CHOICES)
+	handicap_D = forms.Select(choices=DATA_CHOICES)
+	handicap_estado = forms.BooleanField(label='HANDICAP ESTADO')
+	numero_mesas = forms.CharField()
+	numero_jugadores = forms.Select(choices=NUM_JUGADORES)
+	param_puntos = forms.BooleanField(default=True)
+	param_promedio = forms.BooleanField(help_text='Parametro de clasificacion 2')	
+	param_sm = forms.BooleanField(help_text='Parametro de clasificacion 3')
+	#distancia = models.IntegerField(help_text='de carambolas objetivo para ganar')
+	numero_entradas = forms.IntegerField(help_text='Num de turnos')
+	lugar = forms.CharField(max_length=100)
+	direccion = forms.CharField(max_length=100)
+	zip_code = forms.CharField(max_length=8)	
+	telefono = forms.CharField(max_length=15)
+	celular = forms.CharField(max_length=15,null=True,blank=True)
+	fecha_inicio = forms.DateField(help_text='Programe la fecha unica del torneo')	
+"""

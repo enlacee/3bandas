@@ -1,15 +1,12 @@
 from django.db import models
 #importanto modelo PERSONA
+from torneo.models import Torneo,Grupo
 from persona.models import Persona
-from torneo.models import Torneo
-from torneo.models import Grupo
+from torneo.models import CategoriaJuego
+#from torneo.models import Torneo,Grupo,Handicap
 
-# tabla = categorias_juegos
-class CategoriaJuego(models.Model):
-	id_categoria_juego = models.AutoField(primary_key=True)
-	descripcion = models.CharField(max_length=30,help_text='A los jugadores se le clasifica por Categoria')
-	def __unicode__(self):
-		return self.descripcion
+
+
 # tabla = jugadores
 class Jugador(models.Model):
 	id_jugador = models.AutoField(primary_key=True) 

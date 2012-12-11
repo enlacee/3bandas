@@ -8,7 +8,7 @@ from django.shortcuts import render_to_response
 #from django.forms import ContactForm
 #from torneo.models import Torneo
 from django.http import HttpResponse, HttpResponseRedirect
-from torneo.forms import ContactForm, TorneoForm
+from torneo.forms import ContactForm, TorneoFrm
 from django.core.mail import send_mail
 
 from django.template import RequestContext
@@ -17,14 +17,20 @@ from django.template import RequestContext
 import MySQLdb
 import datetime
 
+
+def add(request):
+	frm = TorneoFrm()
+	return render_to_response('public/torneo.html',{'frm':frm},context_instance=RequestContext(request))
+
+#----------------------------------------------------------------------------------------
 def torneo(request):
-	return render_to_response('torneo.html')
+	return render_to_response('torneo.html',context_instance=RequestContext(request))
 
 def lista_torneos(request):
 	torneos = Torneo.objects.all()
 	anibal = 'anb copitan'
 	#return render_to_response('lista_torneos.html', {'lista':torneos}, context_instance=RequestContext(request))
-	return render_to_response('lista_torneos.html', {'lista':torneos,'anibal':anibal})
+	return render_to_response('public/lista_torneos.html', {'lista':torneos,'anibal':anibal},context_instance=RequestContext(request))
 
 def objeto_torneo(request):
 	data = ['uno','dos','tres','cuatro']

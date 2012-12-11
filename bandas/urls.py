@@ -5,7 +5,7 @@ from django.contrib import admin
 
 # app nuevo
 from nuevo.views import current_datetime,hours_ahead
-
+from torneo.views import add
 
 admin.autodiscover()
 
@@ -20,10 +20,12 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
     # --- new  anb ----
-    url(r'^$','torneo.views.lista_torneos'),
+    # Mantenimiento Torneo
+    url(r'^$','torneo.views.add'),
+
 
     # --- applicacion torneo ----    
-    #url(r'^torneo/$','torneo.views.torneo'),
+    url(r'^torneo/$','torneo.views.torneo'),
     # --- applicacion torneo ----    
     #url(r'^torneo/$','torneo.views.torneo'),	
 	

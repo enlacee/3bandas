@@ -1,24 +1,32 @@
 from django.db import models
+#from jugador.models import CategoriaJuego
+#import Jugador,CategoriaJuego
 
-# tabla paises
-class Pais(models.Model):
-	id_pais = models.AutoField(primary_key=True) 
-	descripcion = models.CharField(max_length=30)
-	def __str__(self):
-		return self.descripcion
-		
-		
-		
-		
 # tabla estados		
 class Estados(models.Model):
 	id_estado = models.AutoField(primary_key=True)
 	descripcion = models.CharField(max_length=30)	
 	def __str__(self):
 		return self.descripcion	
+
+
+# tabla paises
+class Pais(models.Model):
+	id_pais = models.AutoField(primary_key=True) 
+	id_estado = models.ForeignKey(Estados)
+	descripcion = models.CharField(max_length=30)
+	descripcion_corta = models.CharField(max_length=4,default=True)
+	def __str__(self):
+		return self.descripcion
 		
+	
 		
-		
+# tabla = categorias_juegos
+class CategoriaJuego(models.Model):
+	id_categoria_juego = models.AutoField(primary_key=True)
+	descripcion = models.CharField(max_length=30,help_text='A los jugadores se le clasifica por Categoria')
+	def __unicode__(self):
+		return self.descripcion		
 		
 # tabla torneos
 class Torneo(models.Model):
@@ -26,15 +34,13 @@ class Torneo(models.Model):
 	id_pais = models.ForeignKey(Pais)
 	id_estado = models.ForeignKey(Estados)
 	nombre = models.CharField(max_length=100)
-	descripcion = models.TextField()
-	handicap = models.CharField(max_length=11)
+	descripcion = models.TextField()	
 	handicap_estado = models.BooleanField()
 	numero_mesas = models.IntegerField()	
 	numero_jugadores = models.IntegerField(help_text='Numero de Jugadores para empezar partida')
 	param_puntos = models.BooleanField(default=True,editable=False,help_text='Parametro de clasificacion 1')
 	param_promedio = models.BooleanField(help_text='Parametro de clasificacion 2')
-	param_sm = models.BooleanField(help_text='Parametro de clasificacion 3')
-	distancia = models.IntegerField(help_text='de carambolas objetivo para ganar')
+	param_sm = models.BooleanField(help_text='Parametro de clasificacion 3')	
 	numero_entradas = models.IntegerField(help_text='Num de turnos')
 	lugar = models.CharField(max_length=100)
 	direccion = models.CharField(max_length=100)
@@ -48,6 +54,13 @@ class Torneo(models.Model):
 		return self.nombre	
 #	def __str__(self):
 #		return '%s id=%s'% (self.nombre,self.id_torneo)
+
+# tabla handicap
+class Handicap(models.Model):
+	id_handicap = models.AutoField(primary_key=True)
+	id_torneo = models.ForeignKey(Torneo)
+	id_categoria_juego = models.ForeignKey(CategoriaJuego)
+	valor = models.IntegerField()
 
 
 #---------------------------------------------------------------------------------
@@ -63,5 +76,6 @@ class Grupo(models.Model):
 	id_torneo = models.ForeignKey(Torneo)
 	id_fase_partida = models.ForeignKey(FasePartida)
 	descripcion = models.CharField(max_length=30,help_text="Ejem: grupo 01, grupo 02")
-	
+	distancia = models.IntegerField(help_text='de carambolas objetivo para ganar')
+	num_set = models.IntegerField()
 	

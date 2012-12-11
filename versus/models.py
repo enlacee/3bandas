@@ -3,14 +3,15 @@ from jugador.models import GrupoJugador
 # Create your models here.
 
 #tabla num_partidas
-class NumPartida(models.Model):
-	id_num_partida = models.AutoField(primary_key=True)
-	numero = models.IntegerField(help_text='# de batalla defaul 1 para todos [1-10]')
+class NumSet(models.Model):
+	id_num_set = models.AutoField(primary_key=True)
+	numero = models.IntegerField(help_text='# set a jugar 1-5')
+	distancia = models.IntegerField(help_text='Es variable en exepciones.')
 
 #tabla versus : MANY TO MANY	
 class Versus(models.Model):
 	id_versus = models.AutoField(primary_key=True)
-	id_num_partida = models.ForeignKey(NumPartida)
+	id_num_set = models.ForeignKey(NumSet)
 	id_grupo_jugador = models.ForeignKey(GrupoJugador)
 	
 class DetalleVersus(models.Model):
