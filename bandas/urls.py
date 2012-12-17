@@ -47,4 +47,28 @@ urlpatterns = patterns('',
     url(r'^nuevo/$',current_datetime), #LLamnado la funcion vista desde  el la app.
 
     url(r'^nuevo/mas/(\d{1,2})/$',hours_ahead),
+
+
+
+
+
+    # APP
+    # Persona
+    url(r'^persona/add/$','persona.views.add'),    
+
+	url(r'^json$','persona.views.json'),   
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
 )

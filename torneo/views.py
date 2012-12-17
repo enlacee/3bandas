@@ -1,3 +1,4 @@
+#encoding:utf-8
 # Create your views here.
 from torneo.models import Torneo
 from torneo.models import Pais

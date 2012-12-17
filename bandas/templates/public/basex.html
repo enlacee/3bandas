@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{% block title %} {% endblock %}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->    
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/bootstrap-responsive.min.css" />    
+    <!-- JS -->
+    <script src="{{STATIC_URL}}js/jquery-1.8.0.min.js" type="text/javascript"></script>
+    <script src="{{STATIC_URL}}js/jquery-ui-1.8.23.custom.min.js" type="text/javascript"></script>
+    <script src="{{STATIC_URL}}js/bootstrap.min.js" type="text/javascript"></script>
+	
+  <!-- Inicio Hisytorial -->
+	<script src="{{STATIC_URL}}js/unFocus-History/EventManager.js" type="text/javascript"></script>
+	<script src="{{STATIC_URL}}js/unFocus-History/History.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+// My mini "Ajax" (DHTML) app
+function PromptMe() {
+  // some application vars
+  var stateVar = "nothin'", displayDiv = document.getElementById("contentAjax");
+  
+  // the sole public method to manipulate this application
+  this.promtForNew = function(elemento) {
+
+    var id = elemento.getAttribute('history');//attributes.rel.value; 
+    //alert("id = "+id);
+    unFocus.History.addHistory(id);
+
+  };
+  
+
+
+  this.historyListener = function(historyHash) {
+    
+    stateVar = historyHash;
+    // update display content
+    displayDiv.innerHTML = "Current Historyx: " + historyHash;
+    // update document title
+    document.title = location.hostname +"  "+ historyHash;
+  };
+
+
+  // subscribe to unFocus.History
+  unFocus.History.addEventListener('historyChange', this.historyListener);
+  
+  // Check for an initial value (deep link).
+  // In this demo app, the historyListener can handle the task.
+  this.historyListener(unFocus.History.getCurrent());
+};
+</script>
+<!-- Final Historial -->
+
+
+<body onLoad="">
+
+<div id="contentAjax" style="border:1px solid red"> Current State Value: nothin' </div>
+
+<form name="form1" method="post" action="">
+  <label>Enter a New History:
+    <input type="text" name="newHistoryVal" id="newHistoryVal">
+  </label>
+</form>
+
+
+
+
+
+  <div class="container">
+
+  <header>
+    <nav>
+    <ul class="breadcrumb">
+
+    <li><a href="#" history="torneo"  
+    onClick="demoApp.promtForNew(this);return false;" >Torneo</a> <span class="divider">/</span></li>
+    
+    <li><a href="#" history="jugador" 
+    onClick="demoApp.promtForNew(this);return false;" >Jugador</a> <span class="divider">/</span></li>
+    <li class="active">About</li>
+
+    </ul>
+    </nav> 
+  </header>
+
+  
+    
+  
+
+
+
+  <!-- Cuerpo -->
+  <section>
+    
+  </section>
+  
+
+    <div class="row">
+    <div class="span9"  style="background-color:#FCEAFF" >uno uno uno unounounounounounounounounounouno unounounouno uno</div>
+    <div class="span3" style="background-color:#9FF">dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos dos </div>
+    </div>
+
+
+<div class="row show-grid">
+  <div class="span6">
+          Level 1 of column
+          <div class="row show-grid">
+            <div class="span3">
+              Level 2
+            </div>
+            <div class="span3">
+              Level 2
+            </div>
+          </div>
+        </div>
+
+</div>
+
+    <div class="well">
+    ... hello 
+    </div>
+	
+<blockquote>
+  HELLO WORD
+</blockquote>
+
+<input type="text" value="null" maxlength="12" class="input-medium search-query">
+<button class="btn" type="submit">Guardar</button>
+<input type="button" value="Nuevo" class="btn"> 
+
+
+<!-- Contenido -->
+{% block content %}
+
+{% endblock %}
+
+</div>
+
+<script type="text/javascript">
+// instantiate and inialize the app.
+var demoApp;
+demoApp = new PromptMe();
+
+
+
+  console.log("hell");
+  console.dir(document.getElementsByTagName('a')/*.getAttribute()*/);
+  
+
+
+
+</script>
+
+  </body>
+</html>
+

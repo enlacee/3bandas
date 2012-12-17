@@ -1,0 +1,218 @@
+
+
+{% extends "private/base.html" %}
+
+<!--  Titulo-->
+{% block title %}El titulo de tiempo : {{ title}} {% endblock %}
+
+
+<!-- Contenido -->
+{% block content %}
+<h3>{{ title }}</h3>
+
+
+<hr>
+
+    
+    
+    <form class="form-horizontal">
+        <fieldset>
+          <div class="control-group">
+            <label class="control-label" for="nombre">Nombres</label>
+            <div class="controls">
+              <input type="text" class="span3" id="nombre">              
+            </div>
+          </div>
+          
+          <div class="control-group">
+            <label class="control-label" for="apellido_paterno">Apellido Paterno</label>
+            <div class="controls">
+              <input type="text" class="input-xlarge" id="apellido_paterno">              
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="apellido_materno">Apellido Materno</label>
+            <div class="controls">
+              <input type="text" class="input-xlarge" id="apellido_materno">              
+            </div>
+          </div>
+
+          <div class="control-group">
+            <label class="control-label" for="fecha_nacimiento">Fecha de Nacimiento</label>
+            <div class="controls">
+            <div class="input-prepend input-append">
+            <span class="add-on">dd/mm/aaaa</span>
+            <input type="text" size="16" name="fecha_nacimiento" class="span2" />
+            </div>               
+             
+            </div>
+          </div>
+                   
+         
+          
+          
+          <div class="control-group">
+            <label class="control-label" for="tipo_documento">Tipo Documento</label>
+            <div class="controls">
+              <select id="tipo_documento" name="tipo_documento" >
+              <option>Tipo Documento</option>
+              {%for elemento in tipo_doc%}                
+                <option value="{{elemento.cod_tipo_documento}}">{{elemento.descripcion_abreviada}}</option>
+              {%endfor%}
+              </select>
+              <div class="input-prepend input-append">
+              <span class="add-on">Numero</span>
+              <input type="text" class="span2" id="numero_documento"> 
+              </div>    
+            </div>   
+          </div>
+          
+          
+          
+          
+          <div class="control-group">
+          <label class="control-label">Sexo</label>
+          	<div class="controls">
+          	<label class="radio">
+                <input type="radio" checked="" value="M" name="sexo" >
+                Masculino
+              </label>
+          	<label class="radio">
+                <input type="radio" checked="" value="F" name="sexo">
+                Femenino
+              </label>
+			</div>
+          </div>
+          
+         
+          
+          <div class="control-group">
+            <label class="control-label" for="nombre">Pais</label>
+            <div class="controls">
+              <select id="pais" name="pais">
+              <option>Pais</option>
+              {% for elemento in pais %}
+                <option value="{{elemento.id_pais}}" {% if elemento.id_pais == 177 %}selected="selected"{% endif %} >
+                {{elemento.descripcion}}
+                </option>
+              {% endfor %}
+              </select>                
+            </div>
+          </div>
+          
+          
+      
+          <!-- inicio Direccion 01--> 
+        <blockquote><h5>Direccion 01</h5></blockquote>         
+          <div class="control-group">
+            <label class="control-label" for="nombre">Estados</label>
+            <div class="controls">
+              <select id="departamento" name="departamento" >
+			  {%for elemento in departamento%}
+                <option value="{{elemento.cod_departamento}}">{{elemento.descripcion}}</option>
+              {%endfor%}
+              </select>
+              
+              <select id="provincia" name="provincia" disabled="disabled" >
+                <option>Provincia</option>
+                <option>01</option>
+              </select>  
+            </div>
+          </div>
+          
+          <div class="control-group">            
+            <div class="controls">
+                <select id="distrito" name="distrito" disabled="disabled" >
+                <option>Distrito</option>
+                <option>01</option>
+              </select>               
+            </div>
+          </div>        
+          <!-- fin Direccion 01-- >
+          
+          
+          
+          <!-- inicio Direccion 02 -->
+           <blockquote><h5>Direccion 02</h5></blockquote>
+          <div class="control-group">
+            <label class="control-label" for="nombre">Estados</label>
+           
+        <div class="controls">
+              <select id="estados" name="estados" >
+                <option>lima</option>
+                <option>arequipa</option>
+
+              </select>                
+            </div>
+          </div>
+          
+          <!-- inicio Direccion 02 -->          
+          
+          <div class="control-group">
+            <label class="control-label" for="nombre">Direccion de Residencia</label>
+            <div class="controls">
+              <input type="text" class="input-xlarge" id="nombre">              
+            </div>
+          </div>
+
+
+          <div class="control-group">
+            <label class="control-label" for="nombre">Direccion de Estadia</label>
+            <div class="controls">
+              <input type="text" class="input-xlarge" id="nombre">              
+            </div>
+          </div>
+
+
+          <div class="control-group">
+            <label class="control-label" for="telefono">Telefono</label>
+            <div class="controls">
+              <input type="text" class="input-medium" id="telefono" name="telefono">              
+            </div>
+          </div>
+
+
+
+          <div class="control-group">
+            <label class="control-label" for="celular">Celular</label>
+            <div class="controls">
+              <input type="text" class="input-medium" id="celular" name="celular">              
+            </div>
+          </div>
+
+
+          <div class="control-group">
+            <label class="control-label" for="celular">Correo</label>
+            <div class="controls">
+              <input type="text" class="input-xlarge" id="correo" name="correo">              
+            </div>
+          </div>
+          
+
+          <div class="control-group">
+            <label class="control-label" for="celular">Foto</label>
+            <div class="controls">
+              <input type="file" id="fileInput" class="input-file">             
+            </div>
+          </div>
+
+
+
+
+
+
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Save changes</button>
+            <button class="btn">Cancel</button>
+          </div>
+        </fieldset>
+      </form>
+
+
+
+
+
+
+
+{% endblock %}

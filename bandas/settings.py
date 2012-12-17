@@ -1,6 +1,4 @@
-# Django settings for bandas project.
 #encoding:utf-8
-
 # Identificando la ruta del proyecto
 import os
 RUTA_PROYECTO = os.path.dirname(os.path.realpath(__file__))
@@ -119,7 +117,7 @@ TEMPLATE_DIRS = (
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sessions',
+    'django.contrib.sessions', #Session
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
@@ -127,7 +125,8 @@ INSTALLED_APPS = (
     'django.contrib.admindocs',
     'bandas',
     'torneo',
-	'persona',
+	'admin',
+	'persona',	
 	'jugador',
 	'versus',
 

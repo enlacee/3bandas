@@ -2,23 +2,22 @@ from django.db import models
 #from jugador.models import CategoriaJuego
 #import Jugador,CategoriaJuego
 
-# tabla estados		
-class Estados(models.Model):
-	id_estado = models.AutoField(primary_key=True)
-	descripcion = models.CharField(max_length=30)	
-	def __str__(self):
-		return self.descripcion	
-
 
 # tabla paises
 class Pais(models.Model):
-	id_pais = models.AutoField(primary_key=True) 
-	id_estado = models.ForeignKey(Estados)
+	id_pais = models.AutoField(primary_key=True)
 	descripcion = models.CharField(max_length=30)
 	descripcion_corta = models.CharField(max_length=4,default=True)
+	#return self
+		
+# tabla estados		
+class Estados(models.Model):
+	id_estado = models.AutoField(primary_key=True)
+	id_pais = models.ForeignKey(Pais)
+	descripcion = models.CharField(max_length=30)	
 	def __str__(self):
 		return self.descripcion
-		
+
 	
 		
 # tabla = categorias_juegos
@@ -51,8 +50,8 @@ class Torneo(models.Model):
 	fecha_creacion = models.DateField(help_text='F creacion', verbose_name='Fecha Creacion',auto_now=True)
 
 	def __unicode__(self):
-		return self.nombre	
-#	def __str__(self):
+		return self.nombre		
+#	def __str__(self): 
 #		return '%s id=%s'% (self.nombre,self.id_torneo)
 
 # tabla handicap
