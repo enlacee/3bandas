@@ -3,9 +3,17 @@ from django.conf.urls import patterns, include, url
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
 
+
 # app nuevo
 from nuevo.views import current_datetime,hours_ahead
 from torneo.views import add
+#persona
+from persona.views import json_pais,json_estados
+
+#-----------
+#administrador
+from admin.views import add
+from juez.views import add
 
 admin.autodiscover()
 
@@ -18,7 +26,9 @@ urlpatterns = patterns('',
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^admin/', include(admin.site.urls)),	
+	
+		
     # --- new  anb ----
     # Mantenimiento Torneo
     url(r'^$','torneo.views.add'),
@@ -55,9 +65,18 @@ urlpatterns = patterns('',
     # APP
     # Persona
     url(r'^persona/add/$','persona.views.add'),    
+    # Persona Json
+	url(r'^json/pais$','persona.views.json_pais'),  
 
-	url(r'^json$','persona.views.json'),   
+    # Persona Json
+    url(r'^json/estados/(\d+)$','persona.views.json_estados'), 
+     
+	#ADMINISTRADOR
+	#url(r'^', include('admin.urls')),
+	url(r'^adm/add/$','admin.views.add'),
 	
+	#JUEZ
+	url(r'^juez/add/$','juez.views.add'),
 
 
 

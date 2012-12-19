@@ -1,0 +1,58 @@
+
+
+{% extends "private/base.html" %}
+
+<!--  Titulo-->
+{% block title %}El titulo de tiempo : {{ title}} {% endblock %}
+
+
+<!-- Contenido -->
+{% block content %}
+<h3>{{ title }}</h3>
+
+
+<hr>
+
+    
+    
+    <form class="form-horizontal">
+        <fieldset>
+          
+          <div class="control-group"></div>
+          <div class="control-group">          </div>
+
+
+          <div class="control-group">
+            <label class="control-label" for="celular">Correo</label>
+            <div class="controls">
+              <input type="text" class="input-xlarge" id="correo" name="correo">              
+            </div>
+          </div>
+          
+
+        <div class="control-group">
+            <label class="control-label" for="nombre">Clave</label>
+            <div class="controls">
+              <input type="password" class="span3" id="clave">              
+            </div>
+          </div>
+
+
+
+
+
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Save changes</button>
+            <button class="btn">Cancel</button>
+          </div>
+        </fieldset>
+      </form>
+
+
+
+
+
+
+
+{% endblock %}

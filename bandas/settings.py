@@ -125,6 +125,7 @@ INSTALLED_APPS = (
     'django.contrib.admindocs',
     'bandas',
     'torneo',
+	'juez',
 	'admin',
 	'persona',	
 	'jugador',

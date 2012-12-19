@@ -9,15 +9,24 @@ class Pais(models.Model):
 	descripcion = models.CharField(max_length=30)
 	descripcion_corta = models.CharField(max_length=4,default=True)
 	#return self
+
+
+class EstadosManager(models.Manager):
+    def get_by_natural_key(self, id_estado, descripcion):
+        return self.get(id_estado=id_estado, descripcion=descripcion)
 		
 # tabla estados		
 class Estados(models.Model):
+	objects = EstadosManager()
 	id_estado = models.AutoField(primary_key=True)
 	id_pais = models.ForeignKey(Pais)
 	descripcion = models.CharField(max_length=30)	
-	def __str__(self):
-		return self.descripcion
-
+	def natural_key(self):
+		return (self.id_estado, self.descripcion)		
+#	def __str__(self):
+#		return self.descripcion
+	class Meta:
+	    unique_together = (('id_estado', 'descripcion'),)
 	
 		
 # tabla = categorias_juegos

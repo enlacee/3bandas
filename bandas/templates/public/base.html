@@ -22,7 +22,9 @@
         <!-- Inicio Hisytorial -->
         <script src="{{STATIC_URL}}js/unFocus-History/EventManager.js" type="text/javascript"></script>
         <script src="{{STATIC_URL}}js/unFocus-History/History.js" type="text/javascript"></script>
-        <script src="{{STATIC_URL}}js/functionHistory.js" type="text/javascript"></script>		
+        <script src="{{STATIC_URL}}js/functionHistory.js" type="text/javascript"></script>
+		<script src="{{STATIC_URL}}js/funcionesPrivate.js" type="text/javascript"></script>
+		
         <!-- Final Historial -->
 
 
@@ -37,10 +39,12 @@
                 <nav>
                     <ul class="breadcrumb">
 
-                        <li><a href="#" history="admin"  
-                               onClick="demoApp.promtForNew(this);return false;" >Admin</a><span class="divider">/</span></li>
+                        <li><a href="/adm/add/">Administrador</a><span class="divider">/</span></li>
                         <li><a href="/persona/add/">Persona</a><span class="divider">/</span></li>
-
+						<li><a href="/juez/add/">Juez</a><span class="divider">/</span></li>
+						<li><a href="/torneo/add/">Torneo</a><span class="divider">/</span></li>
+						<li><a href="/jugador/add/">Jugador</a><span class="divider">/</span></li>
+						<!--
                         <li><a href="#" history="juez"  
                                onClick="demoApp.promtForNew(this);return false;" >Juez</a><span class="divider">/</span></li>                               
                                
@@ -50,6 +54,7 @@
                         <li><a href="#" history="jugador" 
                                onClick="demoApp.promtForNew(this);return false;" >Jugador</a> <span class="divider">/</span></li>
                         <li class="active">About</li>
+						-->
                     </ul>
                 </nav> 
             </header>

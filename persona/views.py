@@ -12,10 +12,12 @@ from django.shortcuts import render_to_response
 from persona.forms import FormPersona
 
 # Data
-from torneo.models import Pais
+from torneo.models import Pais,Estados
 
-# JSON
-from django.core.serializers.json import DjangoJSONEncoder
+# data JSON
+from django.utils import simplejson
+# Serializar Datos
+from django.core import serializers 
 
 def add(request):
 	# Paises
@@ -24,21 +26,24 @@ def add(request):
 	departamento = UbigeoDepartamento.objects.all
 
 	data={
-	'title':'titulo',
+	'title':'Persona',
 	 'pais':pais,
 	 'tipo_doc':tipo_doc,
 	 'departamento':departamento
 		}		
 	return render_to_response('add.html',data,context_instance=RequestContext(request))
 
-def json(request):
-	tipo_doc = TipoDocumento.objects.all
-	data = {
-	'tipo_doc':tipo_doc
-	}
-	return render_to_response('',tipo_doc)
 """
 def view(request):
 
 def edit(request):
 """
+
+def json_pais(request):
+	# Paises		 
+   	data = serializers.serialize("json", Pais.objects.all())
+   	return 	HttpResponse(simplejson.dumps(data), mimetype='application/json')
+
+def json_estados(request,id):	
+   	data = serializers.serialize("json", Estados.objects.filter(id_pais_id=id))
+   	return 	HttpResponse(simplejson.dumps(data), mimetype='application/json')

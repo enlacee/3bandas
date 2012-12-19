@@ -6,9 +6,9 @@ from django.http import HttpResponse, HttpResponseRedirect
 # Libreria Abreviado
 from django.shortcuts import render_to_response
 
-def add(request):		
+def add(request):
+	# Paises
 	data={
-	'title':'Administrador',	
-	}
-	# Error cuando tengo 2 aplicaciones 
-	return render_to_response('add_admin.html',data,context_instance=RequestContext(request))
+	'title':'Juez',
+	}		
+	return render_to_response('add_juez.html',data,context_instance=RequestContext(request))
